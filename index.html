@@ -41,7 +41,8 @@
 		<source src="https://raw.githubusercontent.com/dev-shiser/listenNasheed/main/nasheed.mp3" type="audio/mp3">
 	</audio>
 	<script>
-		var mysong = document.getElementById("mysong");
+		var mysong = new Audio("https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/Audio.mp3");
+		// var mysong = document.getElementById("mysong");
 		var icon = document.getElementById("icon");
 		icon.onclick = function () {
 			if (mysong.paused) {
